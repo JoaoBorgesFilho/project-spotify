@@ -477,7 +477,13 @@ img {
   background-color: #666;
   border-radius: var(--border-radius-s);
   overflow: hidden;
+  cursor: pointer;
 }
+
+.player__bar:hover {
+  background-color: #888;
+}
+
 
 .player__bar--progress {
   --_progress: 0;
