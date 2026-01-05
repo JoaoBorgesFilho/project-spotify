@@ -104,7 +104,3 @@ npm run dev
 4. O front-end será iniciado pelo Vite e exibirá no terminal o endereço de acesso (geralmente):
 
 http://localhost:5173
-
-
-
-
