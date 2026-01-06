@@ -1,106 +1,51 @@
-# 🎵 Spotify Clone (Projeto de Estudo)
+# 🎧 Project Spotify
 
-Aplicação **full-stack** inspirada na interface do Spotify, desenvolvida com o objetivo de
-praticar **React**, componentização, organização de dados e consumo de uma **API REST própria**.
+Aplicação full stack inspirada no Spotify, desenvolvida com **React + Vite** no front-end e **Node.js + Express + MongoDB** no back-end. O projeto consome dados de uma API própria, renderiza artistas e músicas e simula a experiência básica de um player musical.
 
-O projeto conta com um **back-end em Node.js com Express e MongoDB Atlas** para persistência
-de dados de artistas e músicas, que são consumidos pelo front-end.
-
----
-
-## 📌 Sobre o projeto
-
-Esta aplicação é **inspirada visualmente** no Spotify e foi criada exclusivamente
-para fins de **estudo e prática de desenvolvimento web**.
-
-Os dados utilizados são **ilustrativos** e não possuem qualquer vínculo com a
-plataforma oficial do Spotify.
+🔗 **Deploy:** [https://project-spotify-rxxe.onrender.com/](https://project-spotify-rxxe.onrender.com/)
 
 ---
 
 ## 🚀 Tecnologias utilizadas
 
-### 🎨 Front-end
-- React
-- Vite
-- JavaScript
-- CSS
-- Axios
-- Font Awesome
+### Front-end
 
-### 🧠 Back-end
-- Node.js
-- Express
-- MongoDB
-- CORS
+* React
+* Vite
+* JavaScript (ES6+)
+* Axios
+* CSS
 
----
+### Back-end
 
-## ▶️ Como rodar o projeto localmente
-
-> ⚠️ Este é um projeto **full-stack**.  
-> É necessário rodar **back-end e front-end separadamente**, cada um em um terminal.
+* Node.js
+* Express
+* MongoDB Atlas
+* dotenv
+* CORS
 
 ---
 
-## 📌 Pré-requisitos
+## 🧠 Conceitos aplicados
 
-- Node.js **v18 ou superior**
-- npm
-- Conta no **MongoDB Atlas**
-
----
-
-### 🔧 Back-end
-
-1. Acesse a pasta do back-end:
-
-cd back-end
-
-
-2. Instale as dependências:
-
-npm install
-
-
-3. Configure a conexão com o MongoDB:
-
-A string de conexão está definida diretamente no arquivo:
-
-back-end/api/connect.js
-
-
-⚠️ Observação: atualmente, a URI do MongoDB está definida diretamente no código
-apenas para fins de estudo.
-
-4. Inicie o servidor:
-
-npm start
-
-
-5. O back-end estará disponível em:
-
-http://localhost:3001
+* Consumo de API REST
+* Integração front-end / back-end
+* Variáveis de ambiente (.env)
+* Build para produção com Vite
+* Deploy em ambiente real
+* Organização de projeto em front-end e back-end
 
 ---
 
-### 💻 Front-end
+## 🌍 Deploy
 
-1. Em outro terminal, acesse a pasta do front-end:
+O projeto foi publicado utilizando uma única URL para servir tanto o front-end quanto a API, mantendo tudo no mesmo origin e evitando problemas de CORS,
+além de simplificar a arquitetura.
 
-cd front-end
+> ℹ️ Obs: no plano gratuito do Render, a primeira requisição pode demorar alguns segundos devido ao *cold start*.
 
+---
 
-2. Instale as dependências:
+## 📌 Status do projeto
 
-npm install
-
-
-3. Inicie o projeto:
-
-npm run dev
-
-
-4. O front-end será iniciado pelo Vite e exibirá no terminal o endereço de acesso (geralmente):
-
-http://localhost:5173
+✅ Finalizado (versão atual)
