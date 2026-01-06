@@ -7,4 +7,3 @@ const client = new MongoClient(URI);
 
 export const db = client.db("projectSpotify");
 
-console.log(db);
